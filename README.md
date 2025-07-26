@@ -87,11 +87,43 @@ forever_ecommerce/
 ├── README.md
 
 ```
+---
+
+---
+
+## 🚀 Getting Started
+
+```bash
+
+1. Clone the Repository
+- git clone https://github.com/vishweshjain/forever_ecommerce.git
+
+2. Backend Setup
+- cd backend
+- npm install
+
+3. Create a .env file in backend/ and add:
+- PORT=5000
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_jwt_secret
+- STRIPE_SECRET=your_stripe_or_razorpay_key
+
+4. Start the server:
+- backend: node server.js
+- frontend: npm run dev
+- admin: npm run dev
+
+```
 
 ---
 
 ## 🙋🏻‍♂️Author
-- Vishwesh Jain
+
+- **Vishwesh Jain**
+- 🔗 [LinkedIn](https://www.linkedin.com/in/vishwesh-jain/)
+---
+## 📄 License
+- This project is licensed under the MIT License.
 
 
 
